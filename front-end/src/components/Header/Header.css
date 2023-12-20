@@ -1,0 +1,77 @@
+header {
+
+    /* scale the header to 1 page */
+    min-height: 100vh;
+
+    background: url('../../assets/hero-image.png');
+
+    /* position the background */
+    background-size: cover;
+    background-position: center;
+}
+
+
+header .wrapper {
+    position: relative;
+    height: 100vh;
+}
+/* this position depends on the wrapper */
+header .cta { 
+    position: absolute;
+    bottom: 0;
+    right: 0 ;
+    width: 475px;
+    height: 340px;
+    border-radius: 20px 20px 0px 0px;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(25px);
+    padding: 50px 40px;
+}
+
+header .cta .course-name {
+    color: #FFF;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+}
+/* depends on the relative position of course name */
+header .cta .course-name::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background: var(--red-color);
+
+    /* reposition */
+    left: 0px;
+    bottom: -10px;
+
+}
+
+header .cta h1 {
+    color: #FFF;
+    font-family: Alegreya;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+
+    /* change from number to percentage for what?  */
+    line-height: 140%;
+}
+
+header .cta .demo-btn {
+    border-radius: 10px;
+    background: var(--red-color);
+    display: inline-flex;
+    padding: 10px 32px 10px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+}
