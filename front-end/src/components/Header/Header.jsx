@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Header.css"
+import Navbar from '../Navbar/Navbar'
 
 const Header = () => {
     return (
         <header>
-            <div className='wrapper'>
 
+            <div className='wrapper'>
+                <Navbar />
                 {/* cta: call to action */}
                 <div className='cta'>
 
