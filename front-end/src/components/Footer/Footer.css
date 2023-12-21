@@ -1,0 +1,65 @@
+footer .content-container {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social-icons { 
+
+    /* space them horizontally and give a gap */
+    display: flex;
+    gap: 16px ;
+    margin:  29px 0px;
+
+}
+
+footer .copyright {
+    color: #FFF;
+    font-family: Alegreya, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+footer a {
+    color: #FFF;
+    
+    font-family: Alegreya;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer h3 { 
+    margin-top: 0;
+    color: var(--pink-color);
+    font-family: Alegreya;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .links ul {
+    /* remove the default margin and padding of ul */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .links ul li {
+    /* remake the padding and margin with a new one  */
+    color: #FFF;
+    font-family: Alegreya, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px 16px;
+}
