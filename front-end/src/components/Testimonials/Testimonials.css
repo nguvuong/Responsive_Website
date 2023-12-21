@@ -1,5 +1,5 @@
 #testimonials .content-container {
-    margin-top: 50px;
+    margin-top: 100px;
     /* justify the space 1 */
     justify-content: space-between;
 }
@@ -42,3 +42,33 @@
 }
 
 
+/* Tablet version */
+
+@media (max-width: 1040px) {
+    #testimonials .content-container {
+      flex-direction: column;
+      gap: 50px;
+      margin-left: 20px;
+      margin-top: 50px;
+    }
+  
+    #testimonials .testimonial {
+      display: flex;
+      gap: 28px;
+      width: 100%;
+    }
+  }
+  
+  /* Smartphone version */
+  
+  @media (max-width: 720px) {
+    #testimonials .testimonial {
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+  
+    #testimonials .testimonial .reviewer-details {
+      text-align: center;
+    }
+  }

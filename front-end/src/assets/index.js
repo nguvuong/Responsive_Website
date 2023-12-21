@@ -18,6 +18,8 @@ import testimonial3 from "./Testimonials3.png"
 import facebook from "./facebook.svg"
 import twitter from "./twitter.svg"
 import youtube from "./youtube.svg"
+import menuIcon from "./menuicon.svg"
+import closeIcon from "./closeIcon.svg"
 
 
 
@@ -30,4 +32,6 @@ export { heroimage, DAW, frequencies, mastering, mixing, mixingconsole, vocalspr
 , testimonial3
 , youtube
 , facebook 
-, twitter};
+, twitter
+, menuIcon
+, closeIcon};
