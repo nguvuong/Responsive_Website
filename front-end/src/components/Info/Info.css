@@ -1,0 +1,41 @@
+#info .info-content {
+
+    /* align middle  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    /* space all the screen */
+    width: 100%;
+    gap: 4px;
+}
+
+#info .info-content .amount {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+#info .info-content .type {
+    font-family: Alegreya, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+/* set the bgelement 2 relative to the wrapper */
+#info .wrapper {
+    position: relative;
+}
+
+#info .bg-element-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
